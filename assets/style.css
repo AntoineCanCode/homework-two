@@ -5,25 +5,38 @@ header{
 }
 
 body{
-    background: linear-gradient(
-        to right,
-        #FBA920 0%,
-        #FBA920 50%,
-        black 50%,
-        black 100%
-    );
+    background: ./
+    color: azure;
+    font-weight: bold;
 }
 
 h1{
-    color: white;
+    color: azure;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 50px;
     font-size: 36px;
+    background-color: #3B3B3B;
+}
+
+.has-border{
+    border-right: 5px solid black;
+    padding: 40px;
+    font-size: 50px;
+}
+
+#caption{
+display: flex;
+color: azure;
+position: relative;
+top: 45px;
+left: 15px;
+background-color: #3b3b3b;
+font-size: 30px;
 }
 
 nav ul{
    padding: 20px;
-   color: white;
+   color: azure;
     
 } 
 
@@ -36,15 +49,27 @@ nav .nav-links{
 }
 
 .subtitle-photo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-image: url(./opportunity\ css.jpg);
     padding: 50px;
+    
 }
 
 #about-me{
     display: flex;
-    padding-left: 250px;
+    padding-left: 139px;
     padding-right: 250px;
+    
 }
+
+#about-me-paragraph{
+    padding: 30px;
+    top: 0px;
+}
+
+
 #heading2{
     display: flex;
 }
@@ -53,7 +78,7 @@ nav .nav-links{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 250px;
+    padding-left: 150px;
     padding-right: 250px;
     margin-right: 100px;
     
@@ -67,8 +92,38 @@ nav .nav-links{
     width:1000px;
 }
 
-.wrap-container{
-    width:300px;
-    margin:60px;
-    
+#top1{
+    padding: 5px;
 }
+
+
+.top2{
+display: flex;
+}
+
+#p2{
+    padding: 5px;
+}
+
+#p3{
+    padding: 5px;
+}
+
+.bottom2{
+    display: flex;
+}
+
+#p4{
+    padding: 5px;
+}
+
+#p5{
+    padding: 5px;
+}
+
+
+
+
+
+
+
