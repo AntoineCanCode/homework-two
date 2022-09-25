@@ -4,8 +4,8 @@ header{
      
 }
 
-body{
-    background: ./
+body {
+    /* background: ./ */
     color: azure;
     font-weight: bold;
 }
@@ -74,24 +74,36 @@ nav .nav-links{
     display: flex;
 }
 
-.work{
+.work {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 150px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* padding-left: 150px;
     padding-right: 250px;
-    margin-right: 100px;
+    margin-right: 100px; */
     
 }
 
-.work-container{
+.work-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    width:1000px;
+    justify-content: center;
+    
+    /* width:1000px; */
 }
 
+.work-item {
+    border: 5px solid green;
+    background-color: red;
+    min-height: 150px;
+    min-width: 150px;
+    display: flex;
+    align-items: flex-end;
+    margin: 8px;
+}
 #top1{
     padding: 5px;
 }
@@ -121,7 +133,11 @@ display: flex;
     padding: 5px;
 }
 
-
+@media screen and (max-width: 980px) {
+.work-container {
+    flex-direction: column;
+}
+}
 
 
 
