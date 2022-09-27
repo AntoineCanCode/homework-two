@@ -57,11 +57,8 @@ nav .nav-links{
     
 }
 
-#about-me{
+#about-me {
     display: flex;
-    padding-left: 139px;
-    padding-right: 250px;
-    
 }
 
 #about-me-paragraph{
@@ -74,23 +71,33 @@ nav .nav-links{
     display: flex;
 }
 
+img {
+    width: 525px;
+    height: 145px;
+}
 .work {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: stretch;
+    
     /* padding-left: 150px;
     padding-right: 250px;
     margin-right: 100px; */
     
 }
-
+#hero-image {
+    width: 1100px;
+    height: 525px;
+    
+}
 .work-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    
     
     /* width:1000px; */
 }
@@ -133,11 +140,26 @@ display: flex;
     padding: 5px;
 }
 
-@media screen and (max-width: 980px) {
+
+
+@media screen and (max-width: 400px) {
 .work-container {
     flex-direction: column;
+    }
 }
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+ }
+
+
+#about-me {
+    flex-direction: column;
 }
+
 
 
 
